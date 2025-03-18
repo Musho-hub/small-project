@@ -1,0 +1,24 @@
+{
+    "content": [
+        {
+            "name": "Ninja",
+            "img": "ninja.png",
+            "description": "A stealthy red triangle ninja, fast and fearless. Trained in the ancient arts of shadow combat, he strikes before his enemies even see him coming. His sharp reflexes and cunning mind make him a formidable warrior."
+        },
+        {
+            "name": "Death Smokie",
+            "img": "death-smokie.png",
+            "description": "A cigar-smoking fly with a bad attitude. He's small but deadly, always lurking in the shadows, waiting for the perfect moment to strike. With his toxic smoke and razor-sharp wings, he is a dangerous opponent."
+        },
+        {
+            "name": "Black Alien Scum",
+            "img": "black-alien-scum.png",
+            "description": "A sinister alien wielding a blue lightsaber. He hails from a distant galaxy, seeking to conquer all in his path. With his unmatched sword skills and ruthless nature, he is Ninja's most dangerous foe."
+        },
+        {
+            "name": "Angry Ping",
+            "img": "angry-ping.png",
+            "description": "A fierce karate master penguin with a grudge. Once a peaceful warrior, he now fights with pure rage, determined to prove that penguins are not to be underestimated. His kicks are as fast as lightning, and his spirit is unbreakable."
+        }
+    ] 
+}

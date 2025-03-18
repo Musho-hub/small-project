@@ -1,0 +1,94 @@
+//      COLORS     //
+$licorice: #171219ff;
+$dark-cyan: #119da4ff;
+$orange-pantone: #f26419ff;
+$oxford-blue: #1d263bff;
+
+body {
+    background: $oxford-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#mContainer {
+    background: $orange-pantone;
+    width: calc(100% - 40vw);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    border-radius: 5px;
+    box-shadow: 0 0 50px 0 $dark-cyan;
+
+    #hSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-size: clamp(1rem, 5vw, 2.5rem);
+            padding: 0;
+        }
+    }
+    
+    #mSection {
+        margin: 5px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        border-radius: 5px;
+
+        #mainImageSection {
+            background: $licorice;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+
+            img {
+                max-width: 100%;
+                object-fit: contain;
+            }
+        }
+
+        #mainTextSection {
+            background: $licorice;
+            padding: 0 20px 0 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-radius: 5px;
+
+            #mainText{
+                color: whitesmoke;
+                font-size: clamp(0.5rem, 2.5vw, 1.3rem);
+            }
+        }
+    }
+
+    #mNav {
+        background: $orange-pantone;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 5px;
+        border-radius: 5px;
+        margin: 5px;
+
+        .imgWrapper{
+            background: $licorice;
+            border-radius: 5px;
+            cursor: pointer;
+
+            .imgFigure {
+                margin: 10px;
+
+                img {
+                    max-width: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
+
